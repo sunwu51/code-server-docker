@@ -1,0 +1,23 @@
+{
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-11",
+            "path": "/coder/.sdkman/candidates/java/11.0.17.fx-zulu",
+            "default": true
+        },
+        {
+            "name": "JavaSE-17",
+            "path": "/coder/.sdkman/candidates/java/17.0.5.fx-zulu",
+        }
+    ],
+    "java.import.gradle.java.home": "/coder/.sdkman/candidates/java/11.0.17.fx-zulu",
+    "java.import.gradle.enabled": true,
+    "java.jdt.ls.java.home": "/coder/.sdkman/candidates/java/17.0.5.fx-zulu",
+    "tabnine.experimentalAutoImports": true,
+    "editor.fontSize": 15,
+    "files.autoSave": "onFocusChange",
+    "editor.formatOnSave": true,
+    "terminal.integrated.fontWeightBold": "bold",
+    "terminal.integrated.defaultProfile.linux": "fish",
+}
