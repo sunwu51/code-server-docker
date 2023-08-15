@@ -18,7 +18,7 @@ RUN curl -s "https://get.sdkman.io" | bash && \
     echo "sdkman_auto_answer=true" > $SDKMAN_DIR/etc/config && \
     echo "sdkman_auto_selfupdate=false" >> $SDKMAN_DIR/etc/config
 
-RUN bash -c "source $SDKMAN_DIR/bin/sdkman-init.sh && sdk install java 17.0.5.fx-zulu && sdk install java 11.0.17.fx-zulu"
+RUN bash -c "source $SDKMAN_DIR/bin/sdkman-init.sh && sdk install java 8.0.382-zulu && sdk install java 17.0.5.fx-zulu"
 
 RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
 RUN . "$NVM_DIR/nvm.sh" && nvm install ${NODE_VERSION} && nvm use v${NODE_VERSION} && nvm alias default v${NODE_VERSION}
